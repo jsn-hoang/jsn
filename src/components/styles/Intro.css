@@ -8,11 +8,13 @@
 }
 
 .intro-text {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .intro-greeting {
+    display: flex;
     font-weight: bold;
     font-size: 6rem;
     /* color: #6F5643; */
@@ -24,8 +26,16 @@
 }
 
 .intro-model {
-    justify-content: center;
-    align-items: center;
     height: 600px;
-    width: 600px;
+    width: min(600px, 100%);
+}
+
+@media (max-width: 1080px) {
+    .intro {
+      flex-direction: column;
+    }
+    
+    .intro-greeting {
+        justify-content: center;
+    }
 }
