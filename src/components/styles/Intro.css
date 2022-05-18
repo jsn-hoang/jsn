@@ -1,0 +1,31 @@
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+    padding: 32px;
+    /* height: 400px; */
+}
+
+.intro-text {
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-greeting {
+    font-weight: bold;
+    font-size: 6rem;
+    /* color: #6F5643; */
+}
+
+.intro-sub-greeting {
+    font-size: 2rem;
+    /* padding: 24px; */
+}
+
+.intro-model {
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+}
