@@ -8,5 +8,6 @@
     font-weight: bold;
     font-size: 2rem;
     color: #6F5643;
+    text-shadow: 1px 1px #000000;
     /* flex: 1; */
 }
