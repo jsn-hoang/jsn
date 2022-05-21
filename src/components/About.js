@@ -16,7 +16,7 @@ function About() {
                 </p>
             </div>
             <div id='about-picture'>
-                <img src="/assets/chaosonic47.png" alt="Jason Hoang"></img>
+                <img src="assets/chaosonic47.png" alt="Jason Hoang"></img>
             </div>
         </div>
     );
