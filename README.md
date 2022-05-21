@@ -2,4 +2,4 @@
 
 My personal website built with React, leveraging Chakra UI and Spline.
 
-<img src="assets/homepage.JPG">
+<img src="public/assets/homepage.JPG">
