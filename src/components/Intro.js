@@ -1,5 +1,7 @@
+import React, { Suspense } from 'react';
 import './styles/Intro.css';
-import Spline from '@splinetool/react-spline';
+
+const Spline = React.lazy(() => import('@splinetool/react-spline'));
 
 function Intro() {
     return (
@@ -13,7 +15,9 @@ function Intro() {
                 </p>
             </div>
             <div className='intro-model'>
-                <Spline scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
+                <Suspense>
+                    <Spline scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
+                </Suspense>
             </div>
         </div>
     );
