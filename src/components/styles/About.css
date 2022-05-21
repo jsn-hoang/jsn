@@ -21,13 +21,21 @@
     background-color: gray;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1080px) {
     .heading::after {
         display: none;
     }
 
     #about-picture {
         display: none;
+    }
+
+    .heading {
+        text-align: center;
+    }
+    
+    .about-body {
+        text-align: center;
     }
 }
 

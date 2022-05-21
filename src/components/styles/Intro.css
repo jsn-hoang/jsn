@@ -20,7 +20,6 @@
 }
 
 .intro-sub-greeting {
-    display: flex;
     font-size: 2rem;
     /* padding: 24px; */
 }
@@ -40,6 +39,10 @@
     }
 
     .intro-sub-greeting {
-        justify-content: center;
+        text-align: center;
+    }
+
+    .intro-model {
+        display: none;
     }
 }

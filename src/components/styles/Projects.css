@@ -23,6 +23,10 @@
     .projects-grid {
       grid-template-columns: repeat(auto-fill, 300px);
     }
+
+    .projects-heading {
+        text-align: center;
+    }
 }
 
 .grid-item {
