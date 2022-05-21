@@ -6,13 +6,13 @@ function About() {
             <div className='about-text'>
                 <div className='heading'>
                     <span className="about-heading">
-                        About Me
+                        a bit about me
                     </span>
                 </div>
                 <p className='about-body'>
                     I am a fourth-year Computing Science major at the <a href="https://www.ualberta.ca/about/index.html">University of Alberta</a>.
-                    My interest in CS encompasses anything from machine learning and artificial intelligence to web and game development.
-                    Some of my other hobbies include basketball, video games, reading, and chess.
+                    My interest in programming encompasses anything from machine learning and artificial intelligence to web and game development,
+                    and I enjoy trying to learn new things. Some of my other hobbies include basketball, video games, reading, and chess.
                 </p>
             </div>
             <div id='about-picture'>
