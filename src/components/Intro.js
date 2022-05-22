@@ -23,7 +23,9 @@ function Intro() {
                     Welcome to my virtual home.
                 </p>
             </div>
-            <Spline className='intro-model' scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />  
+            <div className='intro-model'>
+                <Spline scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
+            </div>
         </div>
     );
 }

@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* height: 850px; */
+    height: 850px;
     padding: 32px;
-    position: relative;
 }
 
 .intro-text {
@@ -24,11 +23,8 @@
 }
 
 .intro-model {
-    /* height: 600px;
-    width: min(600px, 100%); */
-    position: absolute;
-    left: 600px;
-    transform: scale(0.9);
+    height: 600px;
+    width: min(600px, 100%);
 }
 
 @media (max-width: 1080px) {
@@ -44,7 +40,7 @@
         text-align: center;
     }
 
-    /* .intro-model {
+    .intro-model {
         display: none;
-    } */
+    }
 }
