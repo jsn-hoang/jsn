@@ -1,4 +1,4 @@
-.intro {
+/* .intro {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -16,20 +16,18 @@
     display: flex;
     font-weight: bold;
     font-size: 6rem;
-    /* color: #6F5643; */
-}
+} */
 
-.intro-sub-greeting {
+/* .intro-sub-greeting {
     font-size: 2rem;
-    /* padding: 24px; */
-}
+} */
 
-.intro-model {
+/* .intro-model {
     height: 700px;
     width: min(800px, 100%);
-}
+} */
 
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
     .intro {
       flex-direction: column;
     }
@@ -45,4 +43,4 @@
     .intro-model {
         display: none;
     }
-}
+} */
