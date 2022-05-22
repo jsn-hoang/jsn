@@ -1,7 +1,13 @@
+import React, { useState } from "react";
 import './styles/Intro.css';
 import Spline from '@splinetool/react-spline';
 
 function Intro() {
+    const [count, setCount] = useState(0);
+
+    const incrementCount = () => {
+        setCount(count + 1);
+    };
     // function onLoad() {
     //     setTimeout(function() {
     //         const x = document.getElementById('intro-model');
@@ -24,7 +30,7 @@ function Intro() {
                 </p>
             </div>
             <div className='intro-model'>
-                <Spline scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
+                <Spline onLoad={incrementCount} scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
             </div>
         </div>
     );
