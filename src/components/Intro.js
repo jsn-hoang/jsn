@@ -1,7 +1,9 @@
 import './styles/Intro.css';
 import Spline from '@splinetool/react-spline';
+import React, { useRef } from 'react';
 
 function Intro() {
+    const canvasParent = useRef(null);
     // function onLoad() {
     //     setTimeout(function() {
     //         const x = document.getElementById('intro-model');
@@ -24,7 +26,7 @@ function Intro() {
                 </p>
             </div>
             <div className='intro-model'>
-                <Spline scene="https://prod.spline.design/2PPIdBzs0CXumg2p/scene.splinecode" />
+                <Spline ref={canvasParent} scene="https://prod.spline.design/2PPIdBzs0CXumg2p/scene.splinecode" />
             </div>
         </div>
     );
