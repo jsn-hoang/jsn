@@ -19,7 +19,7 @@
     grid-gap: 150px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1400px) {
     .projects-grid {
       grid-template-columns: repeat(auto-fill, 300px);
     }

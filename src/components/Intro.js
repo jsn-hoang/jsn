@@ -1,17 +1,17 @@
-import React, { Suspense } from 'react';
 import './styles/Intro.css';
-
-const Spline = React.lazy(() => import('@splinetool/react-spline'));
+import Spline from '@splinetool/react-spline';
 
 function Intro() {
-    function onLoad() {
-        setTimeout(function() {
-            
-            document.getElementById('intro-model').style.display = 'none';
-            document.getElementById('intro-model').style.display = 'block';
-            console.log('hi');
-        }, 1000);
-    }
+    // function onLoad() {
+    //     setTimeout(function() {
+    //         const x = document.getElementById('intro-model');
+    //         document.getElementById('intro-model').style.display = 'none';
+    //         document.getElementById('intro-model').style.display = 'block';
+    //         console.log('hi');
+    //         console.log(x);
+    //     }, 1000);
+    //     document.getElementById('intro-model').style.display = 'block';
+    // }
 
     return (
         <div className="intro">
@@ -23,10 +23,8 @@ function Intro() {
                     Welcome to my virtual home.
                 </p>
             </div>
-            <div id='intro-model'>
-                <Suspense>
-                    <Spline onLoad={onLoad} scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
-                </Suspense>
+            <div className='intro-model'>
+                <Spline scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
             </div>
         </div>
     );
