@@ -27,6 +27,7 @@
 .intro-model {
     height: 600px;
     width: min(600px, 100%);
+    z-index: 10;
 }
 
 @media (max-width: 1080px) {
