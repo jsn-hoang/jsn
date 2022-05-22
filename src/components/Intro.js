@@ -5,8 +5,7 @@ const Spline = React.lazy(() => import('@splinetool/react-spline'));
 
 function Intro() {
     function onLoad() {
-        document.getElementById('intro-model').style.display = 'none';
-        document.getElementById('intro-model').style.display = 'block';
+        window.dispatchEvent(new Event('resize'));
     }
 
     return (
@@ -19,7 +18,7 @@ function Intro() {
                     Welcome to my virtual home.
                 </p>
             </div>
-            <div id='intro-model'>
+            <div className='intro-model'>
                 <Suspense>
                     <Spline onLoad={onLoad} scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
                 </Suspense>
