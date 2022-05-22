@@ -24,7 +24,7 @@
     /* padding: 24px; */
 }
 
-.intro-model {
+#intro-model {
     height: 600px;
     width: min(600px, 100%);
 }
@@ -42,7 +42,7 @@
         text-align: center;
     }
 
-    .intro-model {
+    #intro-model {
         display: none;
     }
 }

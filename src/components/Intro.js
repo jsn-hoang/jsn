@@ -4,6 +4,11 @@ import './styles/Intro.css';
 const Spline = React.lazy(() => import('@splinetool/react-spline'));
 
 function Intro() {
+    function onLoad() {
+        document.getElementById('intro-model').style.display = 'none';
+        document.getElementById('intro-model').style.display = 'block';
+    }
+
     return (
         <div className="intro">
             <div className='intro-text'>
@@ -14,9 +19,9 @@ function Intro() {
                     Welcome to my virtual home.
                 </p>
             </div>
-            <div className='intro-model'>
+            <div id='intro-model'>
                 <Suspense>
-                    <Spline scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
+                    <Spline onLoad={onLoad} scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
                 </Suspense>
             </div>
         </div>
