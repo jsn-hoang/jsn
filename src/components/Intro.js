@@ -1,5 +1,7 @@
 import './styles/Intro.css';
-import Spline from '@splinetool/react-spline';
+import React, { Suspense } from 'react';
+
+const Spline = React.lazy(() => import('@splinetool/react-spline'));
 
 function Intro() {
     // function onLoad() {
@@ -24,7 +26,9 @@ function Intro() {
                 </p>
             </div>
             <div className='intro-model'>
-                <Spline scene="https://prod.spline.design/I862iW2kh6EPqPqY/scene.splinecode" />
+                <Suspense fallback={<div className='loading'>Loading...</div>}>
+                    <Spline scene="https://prod.spline.design/I862iW2kh6EPqPqY/scene.splinecode" />
+                </Suspense>
             </div>
         </div>
     );
