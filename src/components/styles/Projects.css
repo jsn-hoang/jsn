@@ -22,6 +22,7 @@
 @media (max-width: 1400px) {
     .projects-grid {
       grid-template-columns: repeat(auto-fill, 300px);
+      grid-gap: 75px;
     }
 
     .projects-heading {
@@ -44,6 +45,7 @@
 
 .grid-item:hover {
     transform: translateY(-5px);
+    /* transform: scale(1.01); */
 }
 
 .icon-buttons {

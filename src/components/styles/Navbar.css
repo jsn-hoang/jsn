@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    /* background-color: #ECE6C2; */
+    top: 0;
+    z-index: 1;
 }
 
 .navbar-name {

@@ -5,9 +5,9 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 function Navbar() {
     return (
         <div className="navbar">
-            <span className="navbar-name">
+            <a href="#top" className="navbar-name">
                 Jason Hoang
-            </span>
+            </a>
             <div className='navbar-icons'>
                 <IconButton icon={<FaGithub />} m='1' size='lg' colorScheme='gray' onClick={() =>
                     window.open('https://github.com/jsn-hoang')}></IconButton>

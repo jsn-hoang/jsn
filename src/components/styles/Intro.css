@@ -38,6 +38,7 @@
 @media (max-width: 1080px) {
     .intro {
       flex-direction: column;
+      height: 600px;
     }
     
     .intro-greeting {
