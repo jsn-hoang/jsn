@@ -27,7 +27,7 @@ function Intro() {
             </div>
             <div className='intro-model'>
                 <Suspense fallback={<div className='loading'>Loading...</div>}>
-                    <Spline scene="https://prod.spline.design/I862iW2kh6EPqPqY/scene.splinecode" />
+                    <Spline scene="https://prod.spline.design/13tgrogdzr14GaVd/scene.splinecode" />
                 </Suspense>
             </div>
         </div>
