@@ -20,7 +20,7 @@ function Projects() {
                     <h3 className='grid-item-title'>Habit Tracker</h3>
                     <p>
                         An Android application that helps users build good habits and track their progress,
-                        with additional features such as following, geolocation, history, etc.
+                        with additional features such as following and geolocation.
                     </p>
                     <div className='icons'>
                         <Icon p='4' as={DiAndroid} w='16' h='16' />

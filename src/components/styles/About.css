@@ -53,10 +53,6 @@
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
 }
 
-#about-picture:hover {
-    transform: translateY(-5px);
-}
-
 p a {
     color: #73BDA8;
 }

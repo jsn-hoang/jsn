@@ -10,13 +10,13 @@ function About() {
                     </span>
                 </div>
                 <p className='about-body'>
-                    I am a fourth-year Computing Science major at the <a href="https://www.ualberta.ca/about/index.html">University of Alberta</a>.
+                    I am a recent graduate from the <a href="https://www.ualberta.ca/about/index.html">University of Alberta</a> with a bachelor's degree in Computing Science.
                     My interest in programming encompasses anything from machine learning and artificial intelligence to web and game development,
-                    and I enjoy trying to learn new things. Some of my other hobbies include basketball, golf, video games, and chess.
+                    and I enjoy trying to learn new things. Some of my other hobbies include basketball, golf, and gaming.
                 </p>
             </div>
             <div id='about-picture'>
-                <img src="assets/chaosonic47.png" alt="Jason Hoang"></img>
+                <img src={process.env.PUBLIC_URL + "/assets/chaosonic47.png"} alt="Jason Hoang"></img>
             </div>
         </div>
     );
